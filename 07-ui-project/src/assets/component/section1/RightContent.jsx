@@ -1,7 +1,7 @@
 import React from 'react'
 import RightCard from './RightCard'
 
-const RightContent = (users) => {
+const RightContent = ({users}) => {
   console.log('RightContent users:', users); // Debug log
 
   if (!users || !Array.isArray(users)) {
